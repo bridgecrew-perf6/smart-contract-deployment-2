@@ -4,16 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo Hi there!"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "hardhat": "^2.8.3"
   },
+  "envDependencies": {
+    "localEnv": "./.env"
+  },
   "dependencies": {
+    "dotenv": "^16.0.0",
     "ethers": "^5.5.4",
+    "evm": "^0.2.0",
     "ganache-core": "^2.13.2",
-    "solc": "^0.8.11"
+    "node-fetch": "^3.2.0",
+    "solc": "^0.8.11",
+    "xmlhttprequest": "^1.8.0"
   }
 }
